@@ -1,3 +1,4 @@
+link deploy fe: https://pustaka-one.vercel.app/
 # perpustakaan-app
 
 This template should help get you started developing with Vue 3 in Vite.
