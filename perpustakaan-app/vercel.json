@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/:path*",
+            "destination": "https://pustaka-production.up.railway.app/"
+        },
+        {
+            "source": "/(.*)*",
+            "destination": "/index.html*"
+        }
+    ]
+}
