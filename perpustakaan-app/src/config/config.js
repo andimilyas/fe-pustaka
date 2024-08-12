@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const customApi = axios.create({
-    baseURL: 'http://localhost:8000/api/v1',
+    baseURL: 'https://pustaka-production.up.railway.app/api/v1',
     headers: {
         'Content-Type': 'application/json',
     }
