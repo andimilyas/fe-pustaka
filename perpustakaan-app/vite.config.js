@@ -11,7 +11,7 @@ export default ({mode}) => {
     server: {
       proxy: {
         '/api': {
-          target: "https://pustaka-production.up.railway.app/api/v1",
+          target: process.env.VITE_API_URL,
           changeOrigin: true, 
         }
       }
